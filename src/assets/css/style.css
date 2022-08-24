@@ -1,0 +1,642 @@
+body{
+    margin: 0%;
+}
+.rows{
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(1px);
+    margin: auto;
+    width: 99%;
+    margin-top: 5%;
+    padding: 1%;
+    border: 1px solid #FF49C2;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.section{
+    color: white;
+    padding-top: 5% ;
+    margin: auto;
+}
+
+
+/* --------------------------------------------------------------- */
+/* Header */
+
+#header-row{
+    color: white;
+    padding-top: 3%;
+    margin-bottom: 5%;
+}
+.sattamImg{
+    width: 99%;
+    margin: 0%;
+    padding: 0%;
+}
+#header-col{
+    overflow: hidden;
+    text-align: left;
+    padding-top: 5%;
+    
+}
+#line-h{
+    background: linear-gradient(to right, #0091E4, #FF49C2);
+    height: 2px;
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#Partnership-b{
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(to right, #FF49C2 , #FAEA2A);
+    border-radius: 5px;
+    font-size: 99%;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------------- */
+/* About */
+
+.about-card{
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    padding: 1.5%;
+    background: transparent;
+    border-radius: 5%;
+    margin: 1%;
+    text-align: center;
+}
+#tezosLogo{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    /* margin-right: 4%; */
+    }
+#line-a{
+    background: linear-gradient(to right, #0091E4, #FF49C2);
+    height: 2px;
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+#nftPrice{
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+}
+#About1col{
+    position: relative;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+
+    background: linear-gradient(rgb(27,49,71), rgb(27,49,71)) padding-box,
+                linear-gradient(45deg, #1406b1, #FF49C2) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.sattamImg2{
+    width: 90%;
+    margin: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#About2col{
+    text-align: left;
+    margin: 1% 2%;
+}
+#About3col{
+    /* padding-left: 20%; */
+    text-align: center;
+}
+.about-card:first-child{
+    width: 38%;
+    padding: 1%;
+    background: linear-gradient(rgb(27,49,71), rgb(27,49,71)) padding-box,
+    linear-gradient(30deg, #0091E4, #FFA219) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.about-card:nth-child(2){
+    border: none;
+    width: 55%;
+}
+
+#t-about{
+    font-size: 25px;
+}
+
+#wishListBt{
+    background: linear-gradient(to left, #ff49c2 22%, #ffa219 100%);
+    width: fit-content;
+    padding: 4% 6%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    /* padding:.5rem; */
+    /* background: linear-gradient(to right, #FF49C2 , #FAEA2A); */
+    border-radius: 5px;
+    font-size: 100%;
+    text-align: center;
+}
+.like{
+    margin-top: 10%;
+    width: 70%;
+   
+}
+span1{
+    color: #FF49C2;
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/* Roadmap */
+
+#roadmap{
+    /* margin:auto; */
+    margin-top: 3%;
+    /* margin-left: 20%; */
+    width: 75%;
+    padding-top: 4%;
+    margin: auto;
+}
+.raodmap-cols{
+    /* text-align: center; */
+    width: 80%;
+    margin: auto !important;
+    /* border: 1px solid #FF49C2; */
+}
+#line-r{
+    background: linear-gradient(to right, #0091E4, #FF49C2);
+    height: 2px;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+
+#paint{
+    width: 30%;
+    opacity: 30%;
+}
+#t-roadmap{
+    margin-top: 4%;
+    color: white;
+    /* position: absolute; */
+}
+#i-roadmap{
+    width: 90%;
+    margin: auto;
+    /* margin-top: 5%; */
+    /* border: 1px solid #FF49C2; */
+}
+
+.cols{
+    overflow: hidden;
+    min-height: 250px;
+    border: 2px solid #FF49C2;
+    margin: 1%;
+    border-radius: 2%;
+}
+
+.PartnershipEmail{
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding:.5rem;
+    background: linear-gradient(to right, #FF49C2 , #FAEA2A);
+    border-radius: 10px;
+}
+#collectionshare{
+    padding: 4%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(to right, #FF49C2 , #FAEA2A);
+    border-radius: 10px;
+}
+
+
+
+#footer{
+    margin-left: 16%;  
+}
+
+
+
+/* ---------------------------------------------------------- */
+/* Collections */
+#Collections h1{
+    margin-left: 3%;
+}
+.coll-card{
+    background: linear-gradient(rgb(27,49,71), rgb(27,49,71)) padding-box,
+    linear-gradient(30deg, #0091E4, #FFA219) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    overflow: hidden;
+    padding: 1% 3%;
+    margin: 1%;
+    text-align: left;
+    font-size: 80%;
+}
+.sliderImg{
+    width: 50%;
+    margin-left: 40%;
+}
+.i-card{
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    margin-bottom: 2%;
+}
+.coll-b{
+    padding: 5%;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(to left, #ff49c2 30%, #ffa219 100%);
+    border-radius: 5px;
+    font-size: 100%;
+    text-align: center;
+    /* margin-left: 30%; */
+}
+
+.c-card{
+    /* margin: 1%; */
+    border-radius: 5%;
+}
+.card2row{
+    margin-left: 2%;
+}
+.card3row{
+    padding-left: 4%;
+}
+#share-row{
+    width: 100%;
+    text-align: right;
+}
+#c-share{
+    padding: 5%;
+    border-radius: 5%;
+    text-decoration: none;
+    color: #FF49C2;
+    font-size: 90%;
+    
+}
+.coll-tezosLogo{
+    width: 20%;
+    /* height: 30px; */
+    /* background-color: white; */
+    padding: 4px;
+    border-radius: 100%;
+    /* margin-right: 5%; */
+    display: inline-block;
+    vertical-align: top;
+    /* margin: 3% 4% ; */
+}
+
+.coll-p{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 85%;
+}
+.c-like{
+    width: 60%;
+}
+.like-row{
+    text-align: center;
+}
+
+/* ------------------------------------------------------------ */
+/* Team */
+
+#Team{
+    width: 65%;
+    margin: auto;
+    margin-top: 3%;
+    padding-top: 5%;
+}
+#Team p{
+    font-size: 24px;
+}
+#line-t{
+    background: linear-gradient(to right, #0091E4, #FF49C2);
+    height: 2px;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+
+.t-team{
+    background: linear-gradient(rgb(0, 28, 55), rgb(0, 28, 55)) padding-box,
+    linear-gradient(30deg, #020bb0, #b300b3) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    
+
+    margin: auto;
+    padding: 2%;
+    padding-top: 3%;
+    /* border: 2px solid #0091E4; */
+    border-radius: 5px;
+    /* margin-left: 16%; */
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    min-height: 110px;
+    font-size: 30px;
+    /* background-color: rgba(10, 10, 10, 0.3); */
+    backdrop-filter: blur(1px);
+}
+#teamBrow{
+    width: 95%;
+    margin: auto;
+}
+
+/* ----------------------------------------------------------- */
+/* Contant */
+#Contact{
+    background: linear-gradient(rgb(0, 28, 55), rgb(0, 28, 55)) padding-box,
+    linear-gradient(30deg, #0091E4, #FFA219) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+
+    /* background-color: rgba(10, 10, 10, 0.3); */
+    backdrop-filter: blur(1px);
+    width: 68%;
+    margin-top: 5%;
+    padding: 4%;
+    padding-top: 5%;
+    /* border-radius: 10px; */
+    /* border: 2px solid #0091E4; */
+    text-align: center;
+}
+
+.contact-cols{
+    padding: 2%;
+    width: 33%;
+    border-radius: 10px;
+    border: 2px solid #0091E4;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.social{
+    filter: drop-shadow(8px 8px 8px rgba(255, 255, 255, 0.345));
+    width: 20%;
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 7%;
+}
+.t-social{
+    display: inline-block;
+    vertical-align: center;
+    text-decoration: none;
+    font-size: 99%;
+    color: white;
+}
+
+
+/* ----------------------------------------------- */
+/* Footer */
+
+#footer{
+    position:absolute;
+    /* height: 300px; */
+    /* background-color: rgba(10, 10, 10, 0.3); */
+    backdrop-filter: blur(1px);
+    width: 68%;
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid #0091E4;
+    margin-bottom: 2%;
+    
+}
+#footer-box{
+    position: relative;
+    height: 400px;
+    /* border: 2px solid #0091E4; */
+}
+#footer div{
+    /* border: 2px solid #0091E4; */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4%;
+    width: 39%;
+    padding: 4% 0%;
+}
+span{
+    border: 1px solid #0091E4;
+    border-radius: 10px;
+    margin-left: 2%;
+    padding: 4px;
+}
+#f-tezos{
+    margin-top: 10%;
+    width: 20%;
+}
+#sub-input{
+    width: 70%;
+    outline: none;
+    border: none;
+}
+/* col2 */
+#subscribeBtn{
+    width: 30%;
+    position:absolute;
+    right: 0;
+    padding: 0%;
+    color: white;
+    background-color: #0090e400;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(to right, #FF49C2 , #FAEA2A);
+    /* border-radius: 5px; */
+    font-size: 90%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    min-height: 98%;
+    /* width: 25%; */
+}
+#buts{
+    width: 100%;
+    height: 35px;
+}
+.contact-form{
+    position: relative;
+    background-color: rgb(27,49,71);
+    border: 2px solid rgb(75, 93, 153);
+    /* width: 90%; */
+    border-radius: 5px;
+    padding: 0;
+    height: 40%;
+}
+
+input[type="email"]{
+    background-color: rgb(27,49,71);
+    color: white;
+    /* border-top: 2px solid rgb(75, 93, 153);
+    border-bottom: 2px solid rgb(75, 93, 153);
+    border-left: 2px solid rgb(75, 93, 153); */
+    /* border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; */
+    border: none;
+    /* width: 72%; */
+    /* height: 32px; */
+
+}
+#green-img{
+    width: 35%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+@media only screen and (max-width: 770px) {
+    body{
+        margin-left: 50px;
+    }
+    #header-row{
+        margin-top: 18px;
+    }
+    .about-card{
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .sliderImg{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .about-card:first-child{
+        width: 95%;
+    }
+    .about-card:nth-child(2){
+        width: 95%;
+    }
+    .coll-card{
+        display: block;
+        width: 90%;
+        min-height: 300px;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .raodmap-cols{
+        display: block;
+        margin-bottom: 10px;
+        margin: 5%;
+    }
+    .contact-cols{
+        width: 35%;
+        margin-left: 10%;
+    }
+    #share-row{
+        width: 100%;
+        text-align: left;
+        margin-left: 0%;
+    }
+    #t-roadmap{
+        width: 90%;
+        margin: 5%;
+    }
+    
+    #i-roadmap{
+        width: 98%;
+        margin: 5%;
+    }
+    #roadmap{
+        width: 96%;
+    }
+    .t-team{
+        display: block;
+        width: 60%;
+        margin: auto;
+        margin-top: 7px;
+        font-size: 17px;
+        height: 75px;
+        min-height: 70px;
+        padding-top: 20px;
+
+        /* margin: auto; */
+    }
+    #Team{
+        width: 90%;
+        margin: auto;
+    }
+    #sub-input{
+        font-size: 70%;
+        border: none;
+        outline: none;
+    }
+    #footer div{
+        width: 85%;
+        display: block;
+        margin: auto;
+    }
+    #footer{
+        position:relative;
+        margin: auto;
+        margin-top: 5px;
+    }
+    #footer-box{
+        margin: auto;
+    }
+    #green-img{
+        width: 60%;
+        margin: 0;
+    }
+    /* #sub-inpu{
+        width: 20% !important;
+    } */
+    input[type="email"]{
+        width: 95%;
+    }
+    input[type="email"]::placeholder{
+        font-size: 80%;
+    }
+    .coll-tezosLogo{
+        width: 12%;
+        margin-top: 1%;
+    }
+    .contact-form{
+        width: 95%;
+        /* margin: auto; */
+        height: fit-content;
+    }
+    .c-like{
+        width: 50%;
+    }
+    .coll-b{
+        margin-left: 30%;
+    }
+    #subscribeBtn{
+        font-size: 50%;
+        
+    }
+}

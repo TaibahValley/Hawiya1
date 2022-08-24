@@ -1,0 +1,145 @@
+#menue{
+    display: inline-block;
+    vertical-align: top;
+}
+#page-wrap {
+    text-align: center;
+    overflow: auto;
+}
+
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+}
+
+.bm-item:hover {
+    color: white;
+}
+
+.bm-burger-button {
+    color: white;
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 3%;
+    top: 4%;
+}
+
+.bm-burger-bars {
+    background: #fdfeff;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+.bm-cross {
+    background: #000000;
+}
+
+.bm-menu {
+    background: rgb(13,36,60);
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+.nav{
+    position: fixed;
+}
+
+#Navbar *{
+    color: rgb(255, 255, 255);
+    min-height: 37px;
+}
+#Navbar{
+    padding: 1% 0% 1% 1%;
+    text-align: center;
+    position: fixed;
+    width: 100% !important;
+    background-color: rgb(13,36,60);
+    z-index: 999;
+    display:inline-block;
+}
+#Navbar2{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(13,36,60);
+
+    z-index: 999;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #FF49C2;
+}
+#lang-box{
+    width: fit-content;
+    margin-right: 1%;
+}
+.lang{
+    background-color: rgb(13,36,60);
+    width: 15% !important;
+    color: rgb(255, 255, 255) !important; 
+    border: none;
+}
+
+
+#logo{
+    margin-right: 1%;
+}
+#logo1{
+    width: 5%;
+    margin-right: 1%;
+}
+#container{
+    width: 100%;
+    margin: 2%;
+    
+}
+#nnv{
+    text-align: center;
+}
+
+@media only screen and (min-width: 550px) {
+/*     .bm-burger-button{
+        visibility: hidden;
+    }
+    #page-wrap{
+        visibility: hidden;
+    } */
+    #Navbar2{
+        visibility: hidden;
+    }
+
+  }
+
+  @media only screen and (max-width: 550.1px) {
+    #Navbar{
+        visibility: hidden;
+    }
+
+    #Navbar2 *{
+        color: rgb(255, 255, 255);
+        height: 25px;
+    }
+    #logo{
+        width: 6%;
+    }
+    #logo5{
+        width: 3px;
+    }
+}

@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  background-image: url("../src/assets/imgs/svg/NFT_Marketplace_Landing_Page.svg");
+  /* background-size: cover; */
+  background-size: 70%;
+  /* background-size: auto; */
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-position-y: 5%;
+  /* background-attachment: fixed; */
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-size: 96%;
+    background-position-y: 1%;
+  }
+}
